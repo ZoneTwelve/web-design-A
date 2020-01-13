@@ -1,0 +1,21 @@
+body{
+  width:100%;
+  #margin:50px auto;
+  background:#faf6f0;
+}
+
+main.container{
+  
+}
+h1#title{
+  text-align:center;
+  padding:50px 0px;
+}
+
+
+div#content{
+  height:500px;
+  background:white;
+  #border: 1px solid #e8e4df;
+  #box-shadow: 10px 10px 5px 0px #e8e4df;
+}
