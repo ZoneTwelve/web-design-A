@@ -23,20 +23,34 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav navbar-center">
-      <li class="nav-item notactive">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li id="root-page" class="nav-item notactive">
+        <a class="nav-link" href="javascript:var _16fa76550ef=location.origin.split('.');_16fa76550ef.shift();location.href=('//'+_16fa76550ef.join('.'));">root</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
+      <li class="nav-item nav-border dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkA" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          func A
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkA">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item nav-border dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkB" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          func B
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkB">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item nav-border dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkC" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          func C
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkC">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Something else here</a>

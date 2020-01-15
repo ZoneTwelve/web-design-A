@@ -138,6 +138,11 @@ div#content{
     color: #e0e0e0;
     background-color: #59534e;
   }
+  
+
+  #root-page{
+    display:none;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -176,7 +181,9 @@ div#content{
   }
 
 
-
+  .nav-border{
+    border-left: 1px solid #645b54;
+  }
   .navbar-brand{
     nopadding:20px;
     opacity:0;
@@ -189,6 +196,8 @@ div#content{
   }
 
 }
+
+
 
 /*
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
