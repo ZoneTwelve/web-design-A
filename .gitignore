@@ -1,5 +1,6 @@
-# not include logo
+# not include file
 logo.png
+testfile-*
 
 # vim editor
 *.swp*
