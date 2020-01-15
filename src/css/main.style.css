@@ -1,3 +1,7 @@
+.dh-text{color:#8c8279;}
+.db-active{color:#d9c3a8;}
+.dh-background{background-color: #3f3a36;}
+
 body{
   width:100%;
   margin:50px auto;
@@ -8,10 +12,17 @@ main.container{
   
 }
 
-header{
+header.main-home{
   background:url("../images/testfile-header.jpg");
   background-color:lightblue;
   background-size:cover;
+}
+
+footer.main-home{
+  padding: 20px 10px ;
+  color:white;
+  background-color: #3f3a36;
+  border-radius: 0px 0px 10px 10px;
 }
 
 h1#title{
@@ -22,14 +33,23 @@ h1#title{
 
 
 div#content{
-  height:500px;
+  min-height:500px;
   background:white;
-  #border: 1px solid #e8e4df;
-  #box-shadow: 10px 10px 5px 0px #e8e4df;
+  NOborder: 1px solid #e8e4df;
+  NObox-shadow: 10px 10px 5px 0px #e8e4df;
 }
 
 main>nav{
   margin-top:-10px;
+}
+
+/* other design */
+a{
+  color:#8c8279;
+}
+a:active, a:hover{
+  color:#d9c3a8;
+  outline-width:0
 }
 
 
@@ -178,9 +198,7 @@ main>nav{
   .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
     color: #e0e0e0;
-  }
-  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #e0e0e0;
+  }dominant hue0e0e0;
     background-color: #59534e;
   }
 
@@ -208,10 +226,10 @@ main>nav{
 
 }
 
+
 .navbar-toggler{
   border: 1px solid;
 }
-
 
 
 .icon-container {
@@ -240,38 +258,3 @@ main>nav{
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
-
-
-
-
-/*
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
-  color: #ffffff;
-}
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-  color: #e0e0e0;
-}
-.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
-  color: #e0e0e0;
-  background-color: #59534e;
-}
-
-.navbar-toggler.toggler-example {
-  cursor: pointer;
-}
-.dark-teal-text {
-color: #004d40;
-}
-
-
-.navbar-brand{
-  padding:20px;
-}
-
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
-*/
