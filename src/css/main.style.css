@@ -1,3 +1,4 @@
+
 .dh-text{color:#8c8279;}
 .db-active{color:#d9c3a8;}
 .dh-background{background-color: #3f3a36;}
@@ -12,9 +13,12 @@ main.container{
   
 }
 
+header{
+  background-color:#544c46;
+  border-radius: 10px 10px 0px 0px;
+}
 header.main-home{
   background:url("../images/testfile-header.jpg");
-  background-color:lightblue;
   background-size:cover;
 }
 
