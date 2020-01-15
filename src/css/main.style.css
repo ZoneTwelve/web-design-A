@@ -16,6 +16,7 @@ header{
   border-radius: 10px 10px 0px 0px;
 }
 header.main-home{
+  background: url("../images/testfile-header.jpg") #544c46;
   background-size:cover;
 }
 
