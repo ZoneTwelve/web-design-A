@@ -10,15 +10,12 @@ body{
 }
 
 main.container{
-  
 }
 
 header{
-  background-color:#544c46;
   border-radius: 10px 10px 0px 0px;
 }
 header.main-home{
-  background:url("../images/testfile-header.jpg");
   background-size:cover;
 }
 
