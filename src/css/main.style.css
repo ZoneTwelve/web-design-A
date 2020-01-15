@@ -200,7 +200,9 @@ a:active, a:hover{
   .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
     color: #e0e0e0;
-  }dominant hue0e0e0;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e0e0e0;
     background-color: #59534e;
   }
 
