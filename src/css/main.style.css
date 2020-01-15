@@ -17,6 +17,7 @@ header{
 h1#title{
   text-align:left;
   padding:50px 20px;
+  height:200px;
   color:white;
 }
 
