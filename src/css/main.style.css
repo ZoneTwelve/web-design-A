@@ -176,6 +176,11 @@ a:active, a:hover{
   #root-page{
     display:none;
   }
+
+
+  main.container{
+    min-width:100%;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -189,6 +194,10 @@ a:active, a:hover{
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #e0e0e0;
     background-color: #59534e;
+  }
+
+  main.container{
+    max-width:100%;
   }
 }
 
@@ -227,7 +236,11 @@ a:active, a:hover{
     left: 50%;
     transform: translatex(-50%);
   }
+  
 
+  main.container{
+    min-width:auto;
+  }
 }
 
 
