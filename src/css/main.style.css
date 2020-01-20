@@ -31,11 +31,12 @@ h1#title{
   text-align:left;
   padding:50px 20px;
   color:white;
+  text-shadow: 2px 2px black;
 }
 
 
 div#content{
-  min-height:500px;
+  min-height:800px;
   background:white;
   NOborder: 1px solid #e8e4df;
   NObox-shadow: 10px 10px 5px 0px #e8e4df;
@@ -176,9 +177,12 @@ a:active, a:hover{
   #root-page{
     display:none;
   }
-
-
+  
+  h1#title{
+    text-align:center;
+  }
   main.container{
+    padding:0px;
     min-width:100%;
   }
 }
@@ -226,6 +230,9 @@ a:active, a:hover{
   .nav-border{
     border-left: 1px solid #645b54;
   }
+  main.container{
+    max-width:80%;
+  }
   .navbar-brand{
     nopadding:20px;
     opacity:0;
@@ -242,7 +249,6 @@ a:active, a:hover{
     min-width:auto;
   }
 }
-
 
 .navbar-toggler{
   border: 1px solid;
